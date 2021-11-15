@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int main(){
     
    float temperature;
@@ -9,16 +10,16 @@ int main(){
    
    if (temperature <= 0)
    {
-        printf("Glace");   
+    printf("Glace");   
    }
    else if (temperature >= 0 && temperature < 100)
    {
-        printf("eau"); 
+    printf("eau"); 
    }
    else
    {
-        printf("Vapeur");
+    printf("Vapeur");
    }
-
+  
    return 0;
 } 
