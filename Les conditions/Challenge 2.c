@@ -5,13 +5,13 @@ int main(){
 	float c,f;
 	
 
-	printf("donner la valeur de temperature en f \n ");
+	printf("Tapez la valeur de temperature en f \n ");
 	scanf("%f",&f);
 
 	c=(f-32)/1.8;
 
 	if(c<0)
-	printf("Très froids %f",c);
+	printf("Trï¿½s froids %f",c);
 
 	else if (c<25)
 	printf("froid %f",c);
@@ -20,7 +20,7 @@ int main(){
 	printf("chaud %f",c);
 
 	else
-	printf("très chaud %f",c);
+	printf("trï¿½s chaud %f",c);
 	
 	return 0;
 }

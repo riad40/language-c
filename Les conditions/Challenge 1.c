@@ -5,7 +5,7 @@ int main()
 {
     int nbr;
     
-    printf("donner un entière : ");
+    printf("Tapez un entiï¿½re : ");
     scanf("%d", &nbr);
 
     if (nbr < 0)
