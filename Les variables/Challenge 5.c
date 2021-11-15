@@ -22,7 +22,6 @@ int main(){
 	else
 	printf("très chaud %f",c);
 	
-
 	return 0;
 
 }

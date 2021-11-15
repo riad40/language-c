@@ -3,26 +3,23 @@
 
     int main(){
         
-        int x1;
-        int y1;
-        int x2;
-        int y2;
-        int d;
-     printf("Tapez la valeur du x1\n");
-     scanf("%d", &x1);
+        float x1, y1, x2, y2, d;
+     
+	 printf("Tapez la valeur du x1\n");
+     scanf("%f", &x1);
     
      printf("Tapez la valeur du y1\n");
-     scanf("%d", &y1);
+     scanf("%f", &y1);
     
      printf("Tapez la valeur du x2\n");
-     scanf("%d", &x2);
+     scanf("%f", &x2);
      
      printf("Tapez la valeur du y2\n");
-     scanf("%d", &y2);
+     scanf("%f", &y2);
     
-     d=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
+     d = sqrt(pow(x2-x1,2)+pow(y2-y1,2));
      
-     printf("Alors la distance entre les deux point est d = %d\n", d);
+     printf("Alors la distance entre les deux point est d = %f\n", d);
     
     return 0;   
 }

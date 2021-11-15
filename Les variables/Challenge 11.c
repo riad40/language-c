@@ -13,7 +13,7 @@
      printf("Tapez la valeur du largeur : \n");
      scanf("%f", &largeur);
      
-     P = 2*(langueur + largeur);
+     P = 2* (langueur + largeur);
      
      printf("alors la circonférence de la rectangle est : %f", P);
     

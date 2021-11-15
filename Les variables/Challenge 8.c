@@ -23,7 +23,7 @@ int main()
     scanf("%f", &d);
    
     s = a + b + c + d;
-    printf("la somme est s=  %f\n", s);
+    printf("la somme est s =  %f\n", s);
     
     m = s / 4 ;
     

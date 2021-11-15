@@ -6,6 +6,7 @@ int main() {
     int a;
     int b;
     int v;
+	
 	printf("Tapez le nombre a \n");
     scanf("%d", &a);
     
