@@ -3,13 +3,9 @@
 
 int main(){
     
-    int a;
-    int b;
-    int c;
-    float x1;
-    float x2;
-	int D;
-    
+    int a, b, c, D;
+    float x1, x2;
+
     printf("Tapez les valeurs du a, b et c \n");
     scanf("%d %d %d", &a, &b, &c);
     
