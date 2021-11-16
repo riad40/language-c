@@ -28,10 +28,11 @@ int main(){
       ecrire('tapez une entier')
       lire(nbr)
       
-    tantque i = 1 et i ++ < 10 fait nbr * i
+    pour i = 1 et i ++ < 10 fait nbr * i
            
        ecrire('le Tableau_de_multiplication est : ')
     
-    fin tantque   
+    fin pour   
     fin 
 */
+
