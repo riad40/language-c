@@ -11,7 +11,7 @@ int divededby(int n,int a){
     return d;
 }
 
-int dividedby(){
+bool dividedby(){
     
     int d, i;   
     bool r = false;
